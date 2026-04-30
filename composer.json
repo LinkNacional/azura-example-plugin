@@ -2,6 +2,9 @@
     "name": "azuracast/example-plugin",
     "description": "An example AzuraCast plugin, demonstrating the capabilities and common use-cases of the plugin system.",
     "type": "azuracast-plugin",
+    "require": {
+        "php": ">=8.2"
+    },
     "authors": [
         {
             "name": "Buster Neece",
@@ -12,6 +15,5 @@
         "psr-4": {
             "Plugin\\ExamplePlugin\\": "src"
         }
-    },
-    "require": {}
+    }
 }
